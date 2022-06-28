@@ -1,0 +1,592 @@
+    /* h1 {
+    color: red;
+} */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lobster&family=Poppins&family=Roboto+Mono:wght@500&display=swap');
+    body {
+        width: 100%;
+        background-color: black;
+        height: 100%;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav {
+        margin-left: 25px;
+        padding: 10px;
+    }
+    
+    .nav ul {
+        margin: 10px;
+    }
+    
+    .nav ul NavLink {
+        margin: 20px;
+    }
+    
+    .nav ul a:link {
+        text-transform: uppercase;
+        color: white;
+        padding: 10px;
+    }
+    
+    .nav ul a:visited {
+        color: white
+    }
+    
+    .top {
+        margin-top: 20px;
+    }
+    
+    .top h1 {
+        color: white;
+        align-items: center;
+        text-transform: capitalize;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+    }
+    
+    .b_e_t {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .bitcoin_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        align-items: center;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .bitcoin_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .bitcoin_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .bitcoin_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .bitcoin_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* bitcoin all line last row class */
+    
+    .ether_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .ether_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .ether_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .ether_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .ether_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* 
+    //ether last row class */
+    
+    .terth_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .terth_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .terth_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .terth_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .terth_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* //second-row class start line */
+    
+    .second-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .usdc_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .usdc_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .usdc_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .usdc_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .usdc_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* usdc all last rowe class line */
+    
+    .bnb_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .bnb_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .bnb_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .bnb_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .bnb_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* bnb last row class line start */
+    
+    .busd_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .busd_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .busd_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .busd_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .busd_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* 
+    /thirefd row clas start line */
+    
+    .third-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .ada_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .ada_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .ada_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .ada_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .ada_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* adda row class start line */
+    
+    .ripple_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .ripple_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .ripple_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .ripple_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .ripple_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* ripple last row class line */
+    
+    .sol_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .sol_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .sol_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .sol_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .sol_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }
+    /* solana last line row class start */
+    /* fourth row clasa line */
+    
+    .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .dot_all {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(127, 127, 126);
+        margin: 50px;
+        border-radius: 25px;
+        box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    }
+    
+    .dot_all h1 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+    
+    .dot_all h2 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(0, 246, 0);
+    }
+    
+    .dot_all h3 {
+        font-family: 'Barlow', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        padding: 2px;
+        color: rgb(254, 136, 136);
+    }
+    
+    .dot_all img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 100px;
+    }

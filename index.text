@@ -1,0 +1,196 @@
+https://api.coingecko.com/api/v3/exchanges?page=coinbase
+https://reactapicrypto.herokuapp.com/
+{/* start row class */}
+
+
+
+
+
+{/* 
+{
+
+user.map((element,index) =>{
+
+return (
+
+<div>
+
+    <h1>{element.index.id[0]}</h1>
+
+    {/* <div className="name" key={element.id}></div> */}
+// </div>
+
+
+// )
+
+
+// })
+
+// } */}
+
+
+import React,{useState,useEffect} from 'react'
+import "./style/price.css"
+function Price() {
+
+    const [user , setApi]=useState([]);
+
+
+    const apis=async()=>{
+
+        const api = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false")
+        // const api_data=await api.json()
+
+        // console.log(api_data)
+
+        setApi(await api.json());
+
+    }
+
+
+
+
+    useEffect(() => {
+        apis()
+    }, [])
+
+  return (
+
+    <div>
+
+
+
+{/* end row class */}
+    </div>
+  )
+}
+
+export default Price
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from 'react'
+
+function Price() {
+
+
+    const apis=async()=>{
+
+    const user_api=await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false")
+
+
+    const app_api=await user_api.json();
+
+    // console.log(app_api)
+     
+    console.log(app_api[0]);
+
+
+   
+
+    // console.log(`this is my name ${user.name}`)
+
+
+    
+
+     document.getElementById("bit_coin").innerHTML=` ${app_api.name}`
+    
+
+    // document.getElementById("website-one").innerHTML=`website: ${user.website}`
+    }
+
+    apis()
+  return (
+    <div>
+
+{/* start row class  */}
+
+
+
+<div className="bit">
+<h1 id="bit_coin"></h1>
+</div>
+    
+
+
+    
+
+
+{/* end row class */}
+    </div>
+  )
+}
+
+export default Price
+
+
+
+.bitcoin_all span {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 150px;
+    height: 150px;
+    /* background-color: #f00; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bitcoin_all span::before {
+    content: 'bitcoin';
+    position: absolute;
+    width: 160%;
+    height: 40px;
+    background-color: rgb(0, 229, 255);
+    transform: rotate(-45deg)translateY(-20px);
+    color: rgb(255, 217, 0);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.bitcoin_all span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #4a98bf;
+    z-index: -1;
+    box-shadow: 140px -140px #4a98bf;
+}
+
+
+
+https://www.appilix.com/register
+
+create tow website to andriod such
+
+email address j48505435@gmail.com
+
+
+password // jugal786123
+
+
+next appypie website
+
+email sample
+
+pasword website
+Jugal@786123
